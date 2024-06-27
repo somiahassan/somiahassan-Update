@@ -34,6 +34,7 @@ public class UpdateARecord {
         /**
          * Problem 1: Update Alexa's last name to be 'Rush' in the site_user table.
          */
+
         String sql = FileUtil.parseSQLFile("problem1.sql");
 
         try {
